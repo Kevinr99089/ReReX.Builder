@@ -1,30 +1,26 @@
-#### ⚠️ Do not download modules from 3rd party sources like random websites you found on Google. There are many that uses my modules and impersonates ReVanced.
+# <p align="center"> Welcome to Extended.Builder🔧
 
-# ReVanced eXtended
-[![CI](https://github.com/NoName-exe/revanced-extended/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/NoName-exe/revanced-extended/actions/workflows/ci.yml)
+>[!note]
+> **ReReX will get a dedicated repository soon, as a consequence, it will no longer be on Extended.Builder.**
 
-Get the [latest CI release](https://github.com/NoName-exe/revanced-extended/releases/latest).
+## <p align="center"> Available apps :
+- YT (Extended), YT Music (Extended) and YT (ReReX).
+> To use these applications, you need to install [GMSCore](https://github.com/ReVanced/GmsCore/releases/latest). View [applied patches](https://github.com/kevinr99089/Extended.Builder/blob/main/config.toml).
 
-## Features
- * Updated with the latest versions of patches.
- * Cleans APKs from unneeded libs to make them smaller.
- * Fully open-source, every binary or APK is compiled without human intervention.
- * Modules:
-     * Recompile invalidated odex for YouTube and YouTube-Music for faster usage.
-     * Receive updates from Magisk app.
-     * Should not break safetynet or trigger root detections used by certain apps.
-     * Handle installation of the correct version of the stock app and all that.
-     * Support Magisk and KernelSU.
+## <p align="center"> Learn more :
+- [History of Extended](https://github.com/kevinr99089/Extended.Builder/blob/main/history.md)
 
- ## Notes
-* Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to block Play Store from updating YouTube and YouTube-Music.
-* Non-root versions of YouTube and YouTube-Music require [MicroG](https://github.com/ReVanced/GmsCore/releases) to work.
+- [Install Extended](https://github.com/kevinr99089/Extended.Builder/blob/main/install.md)
 
-## Credits
-[j-hc](https://github.com/j-hc) for [mindetach](https://github.com/j-hc/mindetach-magisk), [zygisk-detach](https://github.com/j-hc/zygisk-detach) and the [script on which this is based on](https://github.com/j-hc/revanced-magisk-module).
+- [Builds for ReVanced](https://github.com/Kevinr99089/ReVanced.Builder)
 
-[ReVanced Team](https://github.com/revanced) for [MicroG](https://github.com/ReVanced/GmsCore/releases).
+## <p align="center"> Thanks to :
+>[!NOTE]
+> **I am NOT Inotia00 or Anddea, this repository is [not hosted or supported by them](https://github.com/kevinr99089/Extended.Builder/blob/main/history.md#-warning-), support their efforts.**
+- **[j-hc](https://github.com/j-hc), Creator of this Module.**
 
-[inotia00](https://github.com/inotia00) for [revanced-extended patches](https://github.com/inotia00/revanced-patches).
+- **[inotia00](https://github.com/inotia00), Creator of Mods for YT and Music.**
 
-[Gnad Gnaoh](https://github.com/gnadgnaoh) for helping me figure some stuff out.
+- **[anddea](https://github.com/anddea), Creator of Re-ReX, Successor of RVX and ReX.**
+
+##### <p align="right"> **Extended is owned by inotia00, no rights reserved.**
