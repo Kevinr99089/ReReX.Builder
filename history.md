@@ -32,4 +32,4 @@ Attention: Anddea does NOT share any patched applications, nor does it recommend
 
 # <p align="center"> So why am i using this repository ?
 
-I rather be clear with you: This repository (and similar)  are neither tolerated by Anddea for [DMCA](https://en.m.wikipedia.org/wiki/Digital_Millennium_Copyright_Act) reasons. I opened it for personal use. If Anddea sees this message: I'd like to apologize for using this kind of solution, it's for simplicity and automation. I can delete this repository if you ask me to, but please note that I do not promote this repository, nor do I use it to share applications or include malicious code.
+I rather be clear with you: This repository (and similar)  are neither tolerated by Anddea for [DMCA](https://en.m.wikipedia.org/wiki/Digital_Millennium_Copyright_Act) reasons. I opened it for personal use. If Anddea see this message: I'd like to apologize for using this kind of solution, it's for simplicity and automation. I can delete this repository if you ask me to, but please note that I do not promote this repository, nor do I use it to share applications or include malicious code.
