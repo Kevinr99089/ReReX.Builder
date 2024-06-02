@@ -4,6 +4,8 @@
 included-patches = "'Custom branding icon YouTube'"
 excluded-patches = "'Custom branding name YouTube' 'Disable haptic feedback' 'Hide cast button' 'Hide channel watermark' 'Hide navigation label' 'Swipe controls' 'Tuck away preferences'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+patches-version = "v2.226.0-dev.4"
+integrations-version = "v0.153.0-dev.1"
 
 [Music-ReReX] # Default patches are applied, Except line 9 & 10 :
 included-patches = "'Custom branding icon YouTube Music'"
