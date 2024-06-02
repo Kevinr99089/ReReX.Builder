@@ -7,6 +7,19 @@
         "value": "revancify_yellow"
       }
     ]
+  },
+  {
+    "patchName": "Custom branding icon YouTube Music",
+    "options": [
+      {
+        "key": "AppIcon",
+        "value": "revancify_yellow"
+      },
+      {
+        "key": "SplashHeaderIcon",
+        "value": "true"
+      }
+    ]
   }
 ]
         
