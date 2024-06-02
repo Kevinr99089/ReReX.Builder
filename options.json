@@ -14,10 +14,6 @@
       {
         "key": "AppIcon",
         "value": "revancify_yellow"
-      },
-      {
-        "key": "SplashHeaderIcon",
-        "value": "true"
       }
     ]
   }
