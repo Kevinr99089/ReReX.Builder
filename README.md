@@ -1,5 +1,7 @@
 # <p align="center"> Welcome to Anddea.Builder🔧
 
+>[!NOTE]
+>Extended will soon integrate Anddea patches. If Anddea discontinues ReReX, this repository will be deleted or used for ReVanced patches.
 ## <p align="center"> Available apps :
 - YT (ReReX) and YT Music (ReReX).
 > To use these applications, you need to install [GMSCore](https://github.com/ReVanced/GmsCore/releases/latest). View [applied patches](https://github.com/kevinr99089/Anddea.Builder/blob/main/config.toml).
