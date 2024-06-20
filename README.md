@@ -1,9 +1,7 @@
 # <p align="center"> Welcome to Anddea.Builder🔧
 
->[!NOTE]
->Anddea now has its own repository. This repository can be removed if I judge that Extended has the same features.
 ## <p align="center"> Available apps :
-- YT (ReReX) and YT Music (ReReX).
+- YT, YT Music and YT Essential (All the main functions of ReReX without the superficial, perfect for people who don't want a lot of options or for newcomers).
 > To use these applications, you need to install [GMSCore](https://github.com/ReVanced/GmsCore/releases/latest). View [applied patches](https://github.com/kevinr99089/Anddea.Builder/blob/main/config.toml).
 
 ## <p align="center"> Learn more :
