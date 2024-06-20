@@ -5,6 +5,23 @@
       {
         "key": "AppIcon",
         "value": "revancify_yellow"
+      },
+      {
+        "key": "ChangeHeader",
+        "value": "revancify_yellow"
+      }
+    ]
+  },
+  {
+    "patchName": "Translations",
+    "options": [
+      {
+        "key": "SelectedLanguages",
+        "value": "fr-rFR"
+      },
+      {
+        "key": "SelectedAppLanguages",
+        "value": "fr"
       }
     ]
   },
@@ -14,7 +31,12 @@
       {
         "key": "AppIcon",
         "value": "revancify_yellow"
+      },
+      {
+        "key": "ChangeHeader",
+        "value": "revancify_yellow"
       }
     ]
   }
 ]
+        
