@@ -5,12 +5,12 @@ included-patches = "'Custom branding icon YouTube' 'Visual preferences icons"
 excluded-patches = "'Custom branding name YouTube' 'Disable haptic feedback' 'Hide cast button' 'Hide channel watermark' 'Hide navigation label' 'Swipe controls'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
-[YT-Essential] # Only patches on line 15 are applied, This is ReReX, but only the essentials:
+[YT-Essential] # Only patches on line 10 are applied, This is ReReX, but only the essentials:
 exclusive-patches = true
 included-patches = "'Ambiant mode control' 'Change start page' 'Custom branding icon for YouTube' 'GmsCore support' 'Hide Ads' 'Hide feed components' 'Hide action buttons' 'Layout switch' 'Navigation bar components' 'Overlay buttons' 'Player components' 'Return YouTube Dislike' 'Sanitize sharing links' 'Settings' 'Shorts Components' 'Spoof format stream data' 'SponsorBlock' 'Toolbar components' 'Translations' 'Visual preferences icons'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
-[Music] # Default patches are applied, Except line 9 & 10 :
+[Music] # Default patches are applied, Except line 14 & 15 :
 included-patches = "'Custom branding icon YouTube Music'"
 excluded-patches = "'Custom branding name YouTube Music'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
