@@ -1,4 +1,5 @@
 Music: 7.06.53  
+YT: 19.23.40  
 YT-Essential: 19.23.40  
 CLI: inotia00/revanced-cli-4.6.1-all.jar  
 Integrations: anddea/revanced-integrations-0.153.0.apk  
