@@ -7,7 +7,6 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 # ReVanced Extended
 [YouTube Music Extended]
-enabled = false
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "inotia00/revanced-patches"
 patches-version = "v4.10.2-dev.2"
@@ -19,7 +18,6 @@ included-patches = "'Hide player overlay filter'"
 excluded-patches = "'Amoled' 'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
 
 [Youtube Extended]
-enabled = false
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "inotia00/revanced-patches"
 patches-version = "v4.10.2-dev.2"
