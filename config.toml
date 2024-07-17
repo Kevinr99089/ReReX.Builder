@@ -1,66 +1,21 @@
-enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
+# ⚠️ Only non-root builds (Can be used on rooted device).
 
-# add 'enabled = false' for not patching a specific app or remove it from the config
-# see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
+[YT] # Default patches are applied, Except line 4 & 5 :
+included-patches = "'Custom branding icon YouTube' 'Visual preferences icons'"
+excluded-patches = "'Custom branding name YouTube' 'Disable haptic feedback' 'Hide cast button' 'Hide channel watermark' 'Hide navigation label' 'Swipe controls'"
+[YT] # Default patchs are applied, Except line 4 & 5:
+included-patches = "'Custom branding' 'Change header'"
+excluded-patches = "'Hide cast button' 'Hide watermark' 'Swipe controls'"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
-# you can use rvmm-config-gen to generate a config
+[YT-Essential] # Only patches on line 10 are applied, This is ReReX, but only the essentials:
+exclusive-patches = true
+included-patches = "'Ambiant mode control' 'Change start page' 'Custom branding icon for YouTube' 'Enable minimized playback' 'Hide action buttons' 'Hide Ads' 'Hide feed components' 'Layout switch' 'Navigation bar components' 'Overlay buttons' 'Player components' 'Return YouTube Dislike' 'Sanitize sharing links' 'Settings' 'Shorts Components' 'Spoof format stream data' 'SponsorBlock' 'Toolbar components' 'Translations' 'Visual preferences icons'"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
-# ReVanced Extended
-[YouTube Music Extended]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-patches-source = "inotia00/revanced-patches"
-patches-version = "v4.10.2-dev.2"
-integrations-source = "inotia00/revanced-integrations"
-integrations-version = "v1.11.2-dev.2"
+[Music] # Default patches are applied, Except line 14 & 15 :
+included-patches = "'Custom branding icon YouTube Music'"
+excluded-patches = "'Custom branding name YouTube Music'"
+[Music] # Default patches are applied:
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 arch = "arm64-v8a"
-build-mode = "both"
-included-patches = "'Hide player overlay filter'"
-excluded-patches = "'Amoled' 'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
-
-[Youtube Extended]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-patches-source = "inotia00/revanced-patches"
-patches-version = "v4.10.2-dev.2"
-integrations-source = "inotia00/revanced-integrations"
-integrations-version = "v1.11.2-dev.2"
-build-mode = "both"
-included-patches = "'Visual preferences icons'"
-excluded-patches = "'Custom Shorts action buttons' 'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Theme'"
-
-
-# ReVanced Extended - latest version
-[YouTube Music extended Latest]
-enabled = false
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-patches-source = "inotia00/revanced-patches"
-patches-version = "v4.10.2-dev.2"
-integrations-source = "inotia00/revanced-integrations"
-integrations-version = "v1.11.2-dev.2"
-arch = "arm64-v8a"
-build-mode = "both"
-version = "latest"
-included-patches = "'Hide player overlay filter'"
-excluded-patches = "'Amoled' 'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
-
-[YouTube Extended Latest]
-enabled = false
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-patches-source = "inotia00/revanced-patches"
-patches-version = "v4.10.2-dev.2"
-integrations-source = "inotia00/revanced-integrations"
-integrations-version = "v1.11.2-dev.2"
-build-mode = "both"
-version = "latest"
-included-patches = "'Visual preferences icons'"
-excluded-patches = "'Custom Shorts action buttons' 'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Theme'"
-
-# ReVanced
-[YouTube music ReVanced]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-arch = "arm64-v8a"
-build-mode = "both"
-
-[YouTube Revanced]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-build-mode = "both"
-excluded-patches = "'Theme'"
