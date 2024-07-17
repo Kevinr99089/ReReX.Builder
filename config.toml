@@ -1,16 +1,16 @@
 enable-magisk-update = true
 
-[YT-RV]
+[YT-ReVanced]
 build-mode = "both"
 excluded-patches = "'Theme'"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 
-[Music-RV]
+[Music-Revanced]
 build-mode = "both"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 arch = "arm64-v8a"
 
-[YT-RVX]
+[YT-Extended]
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 included-patches = "'Visual preferences icons'"
@@ -18,7 +18,7 @@ excluded-patches = "'Custom Shorts action buttons' 'Custom branding icon for You
 build-mode = "both"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 
-[Music-RVX]
+[Music-Extended]
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 included-patches = "'Hide player overlay filter'"
