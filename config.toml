@@ -1,41 +1,10 @@
-enable-magisk-update = true
+# ⚠️ Only non-root builds (Can be used on rooted device).
 
-[YT-ReVanced]
-build-mode = "module"
-excluded-patches = "'Theme'"
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+[YT] # Default patchs are applied, Except line 4 & 5:
+included-patches = "'Custom branding' 'Change header'"
+excluded-patches = "'Hide cast button' 'Hide watermark' 'Swipe controls'"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
-[Music-Revanced]
-build-mode = "module"
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-arch = "arm64-v8a"
-
-[YT-Extended-dev]
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-patches-version = "v4.10.2-dev.2"
-integrations-version = "v1.11.2-dev.2"
-included-patches = "'Visual preferences icons'"
-excluded-patches = "'Custom Shorts action buttons' 'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Theme'"
-build-mode = "module"
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-
-[Music-Extended-dev]
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-patches-version = "v4.10.2-dev.2"
-integrations-version = "v1.11.2-dev.2"
-included-patches = "'Hide player overlay filter'"
-excluded-patches = "'Amoled' 'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
-build-mode = "module"
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-arch = "arm64-v8a"
-
-[Music-Extended]
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-included-patches = "'Hide player overlay filter'"
-excluded-patches = "'Amoled' 'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
-build-mode = "module"
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+[Music] # Default patches are applied:
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 arch = "arm64-v8a"
