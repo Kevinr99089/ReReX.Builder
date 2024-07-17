@@ -1,21 +1,28 @@
-# ⚠️ Only non-root builds (Can be used on rooted device).
+enable-magisk-update = true
 
-[YT] # Default patches are applied, Except line 4 & 5 :
-included-patches = "'Custom branding icon YouTube' 'Visual preferences icons'"
-excluded-patches = "'Custom branding name YouTube' 'Disable haptic feedback' 'Hide cast button' 'Hide channel watermark' 'Hide navigation label' 'Swipe controls'"
-[YT] # Default patchs are applied, Except line 4 & 5:
-included-patches = "'Custom branding' 'Change header'"
-excluded-patches = "'Hide cast button' 'Hide watermark' 'Swipe controls'"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+[YT-RV]
+build-mode = "both"
+excluded-patches = "'Theme'"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 
-[YT-Essential] # Only patches on line 10 are applied, This is ReReX, but only the essentials:
-exclusive-patches = true
-included-patches = "'Ambiant mode control' 'Change start page' 'Custom branding icon for YouTube' 'Enable minimized playback' 'Hide action buttons' 'Hide Ads' 'Hide feed components' 'Layout switch' 'Navigation bar components' 'Overlay buttons' 'Player components' 'Return YouTube Dislike' 'Sanitize sharing links' 'Settings' 'Shorts Components' 'Spoof format stream data' 'SponsorBlock' 'Toolbar components' 'Translations' 'Visual preferences icons'"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+[Music-RV]
+build-mode = "both"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+arch = "arm64-v8a"
 
-[Music] # Default patches are applied, Except line 14 & 15 :
-included-patches = "'Custom branding icon YouTube Music'"
-excluded-patches = "'Custom branding name YouTube Music'"
-[Music] # Default patches are applied:
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+[YT-RVX]
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+included-patches = "'Visual preferences icons'"
+excluded-patches = "'Custom Shorts action buttons' 'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Theme'"
+build-mode = "both"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+
+[Music-RVX]
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+included-patches = "'Hide player overlay filter'"
+excluded-patches = "'Amoled' 'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
+build-mode = "both"
+apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 arch = "arm64-v8a"
