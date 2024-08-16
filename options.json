@@ -1,42 +1,15 @@
 [
   {
-    "patchName": "Custom branding icon YouTube",
+    "patchName": "Translations for YouTube",
     "options": [
       {
-        "key": "AppIcon",
-        "value": "revancify_yellow"
+        "key": "SelectedTranslations",
+        "value": "el-rGR, fr-rFR"
       },
       {
-        "key": "ChangeHeader",
-        "value": "revancify_yellow"
-      }
-    ]
-  },
-  {
-    "patchName": "Translations",
-    "options": [
-      {
-        "key": "SelectedLanguages",
-        "value": "fr-rFR"
-      },
-      {
-        "key": "SelectedAppLanguages",
-        "value": "fr"
-      }
-    ]
-  },
-  {
-    "patchName": "Custom branding icon YouTube Music",
-    "options": [
-      {
-        "key": "AppIcon",
-        "value": "revancify_yellow"
-      },
-      {
-        "key": "ChangeHeader",
-        "value": "revancify_yellow"
+        "key": "SelectedStringResources",
+        "value": "bg, fr"
       }
     ]
   }
 ]
-        
