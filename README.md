@@ -1,7 +1,9 @@
-# <p align="center"> Welcome to ReVanced.Builder🔧
+# <p align="center"> Welcome to Anddea.Builder🔧
+
+## <p align="center"> This builder is outdated, The full update of this builder will take some time, but it should work fine in the meantime.
 
 ## <p align="center"> Available apps :
-- YT (RV) and YT Music (RV).
+- YT (ReReX) and YT Music (ReReX).
 > To use these applications, you need to install [GMSCore](https://github.com/ReVanced/GmsCore/releases/latest). View [applied patches](https://github.com/kevinr99089/ReVanced.Builder/blob/main/config.toml).
 
 ## <p align="center"> Learn more :
@@ -13,9 +15,9 @@
 
 ## <p align="center"> Thanks to :
 > [!NOTE]
-> **I am NOT ReVanced Team, this repository is [not hosted or supported by them](https://github.com/kevinr99089/ReVanced.Builder/blob/main/history.md#-warning-), support their efforts.**
+> **I am NOT Anddea, this repository is [not hosted or supported by his](https://github.com/kevinr99089/Anddea.Builder/blob/main/history.md#-warning-), support their efforts.**
 - **[j-hc](https://github.com/j-hc), Creator of this Module.**
 
-- **[revanced](https://github.com/ReVanced), Creator of Mods for many applications.**
+- **[anddea](https://github.com/anddea), Creator of Mods for many applications.**
   
-##### <p align="right"> **ReVanced is owned by ReVanced Team, no rights reserved.**
+##### <p align="right"> **ReReX is owned by Anddea, no rights reserved.**
