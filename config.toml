@@ -1,7 +1,7 @@
 # ⚠️ Only non-root builds (Can be used on rooted device).
 
 [YT] # Default patchs are applied, Except line 4 & 5:
-included-patches = "'Custom branding' 'Change header'"
+included-patches = "'Custom branding icon YouTube' 'Toolbar components' 'Custom branding name YouTube'"
 excluded-patches = "'Hide cast button' 'Hide watermark' 'Swipe controls'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
