@@ -1,6 +1,6 @@
 [
   {
-    "patchName": "Custom branding icon YouTube",
+    "patchName": "Custom branding icon for YouTube",
     "options": [
       {
         "key": "AppIcon",
@@ -26,7 +26,7 @@
     ]
   },
   {
-    "patchName": "Custom branding icon YouTube Music",
+    "patchName": "Custom branding icon for YouTube Music",
     "options": [
       {
         "key": "AppIcon",

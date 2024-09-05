@@ -4,7 +4,7 @@ RV, for **R**e**V**anced, like **RVX**, for **R**e**V**anced e**X**tended, are m
 
 # <p align="center"> History of ReVanced:
 
-YT Vanced was an app that allowed you to enjoy YT Premium features for free, including an ad blocker, Picture in Picture, and add features such as Sponsorblock and, since the last update, Return YT Dislikes (RYD). But March 13, 2022 was an unfortunate date, as the Vanced team announced the end of YT Vanced support following a cease-and-desist letter received by Google. For several weeks, many users wondered how they would be able to continue enjoying its useful features, with Team Vanced adding a little later on Twitter that the app would work for another 2 years before becoming obsolete (today, the app no longer works).
+YT Vanced was an app that allowed you to enjoy some features of YT Premium features, including an ad blocker, Picture in Picture, and add features such as Sponsorblock and, since the last update, Return YT Dislikes (RYD). But March 13, 2022 was an unfortunate date, as the Vanced team announced the end of YT Vanced support following a cease-and-desist letter sent by Google. For several weeks, many users wondered how they would be able to continue enjoying its useful features, with Team Vanced adding a little later on Twitter that the app would work for another 2 years before becoming obsolete (today, the app no longer works).
 
 A few days later (March 21, 2022), after announcing the end of the application, ReVanced was hard at work creating the same Vanced functions in order to make them open source, allowing you to apply patches yourself. And that's why Team Vanced had to stop developing Vanced: it's legal to modify an application for personal use, but illegal to share it. that's the mistake Team Vanced made. The ingenuity of its spiritual successor ReVanced, rather than offering applications for free download, not only keeps them legal, but gives us control over which patches to apply.
 
@@ -18,11 +18,11 @@ After the Vanced Team stopped development, and ReVanced appeared, he edited his 
 
 Extended offers more comprehensive patches, but focuses solely on YT, YT Music and, more recently, Reddit, offering all Vanced features, plus additional functionality to meet current expectations regarding new YT features. Although its community is smaller than that of ReVanced, Inotia00 has chosen to open a Crowdin for its community to help translate YT Extended and YT Music Extended into their language, so that, as with Vanced, the added settings are translated.
 
-During first pause of Extended, a fork called YT-Advanced (from his pseudo Alireza), shortened to ReX, took over Extended's development.
-When inotia00 finally took over Extended, it integrated the modifications made by Alireza, and worked together.
-Later (during Extended's second pause), under the (unofficial) name of Re-ReX, Alireza and Anddea work together to improve Extended's parameters. Since then, although dependent on Extended, Anddea has followed its course and added its own very interesting features in addition to those present in Extended.
+# <p align="center"> So why Anddea exists?
+For a while, inotia00 stopped Extended, and Anddea took over until Extended was back in service. But now that inotia00 has temporarily or permanently stopped creating patches submitted by the community, Anddea is responsible for adding patches submitted by the community.
+Overall, Extended and ReReX are similar, but ReReX has more features than Extended, even though Extended has quite a few.
 
-I thank [Vanced team](https://github.com/TeamVanced) for creating YT Vanced and Vanced Music, [ReVanced Team](https://github.com/ReVanced) for resurrecting Vanced with YT and YT Music, and diversifying, [Inotia00](https://github.com/inotia00) for enhancing ReVanced by adding very useful functions to YT and YT Music  and [Anddea](https://github.com/Anddea) to continue inotia00's work during its breaks.
+I thank [Vanced team](https://github.com/TeamVanced) for creating YT Vanced and Vanced Music, [ReVanced Team](https://github.com/ReVanced) for resurrecting Vanced with YT and YT Music, and diversifying, [Inotia00](https://github.com/inotia00) for enhancing ReVanced by adding very useful functions to YT and YT Music, and Anddea, a potential successor for Extended [Anddea](https://github.com/anddea).
 
 You deserve more recognition.
 
@@ -32,4 +32,4 @@ Attention: Anddea does NOT share any patched applications, nor does it recommend
 
 # <p align="center"> So why am i using this repository ?
 
-I rather be clear with you: This repository (and similar)  are neither tolerated by Anddea for [DMCA](https://en.m.wikipedia.org/wiki/Digital_Millennium_Copyright_Act) reasons. I opened it for personal use. If Anddea see this message: I'd like to apologize for using this kind of solution, it's for simplicity and automation. I can delete this repository if you ask me to, but please note that I do not promote this repository, nor do I use it to share applications or include malicious code.
+I rather be clear with you: This repository (and similar)  are neither tolerated by Inotia00 for [DMCA](https://en.m.wikipedia.org/wiki/Digital_Millennium_Copyright_Act) reasons. I opened it for personal use. If Anddea see this message: I'd like to apologize for using this kind of solution, it's for simplicity and automation. I can delete this repository if you ask me to, but please note that I do not promote this repository, nor do I use it to share applications or include malicious code.
