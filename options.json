@@ -1,15 +1,40 @@
-        
 [
   {
-    "patchName": "Custom package name",
+    "patchName": "Custom branding icon for YouTube",
     "options": [
       {
-        "key": "PackageNameYouTube",
-        "value": "yt.rvx.noname.exe"
+        "key": "AppIcon",
+        "value": "xisr_yellow"
       },
       {
-        "key": "PackageNameYouTubeMusic",
-        "value": "ytm.rvx.noname.exe"
+        "key": "ChangeHeader",
+        "value": "xisr_yellow"
+      }
+    ]
+  },
+  {
+    "patchName": "Translations",
+    "options": [
+      {
+        "key": "SelectedLanguages",
+        "value": "fr-rFR"
+      },
+      {
+        "key": "SelectedAppLanguages",
+        "value": "fr"
+      }
+    ]
+  },
+  {
+    "patchName": "Custom branding icon for YouTube Music",
+    "options": [
+      {
+        "key": "AppIcon",
+        "value": "xisr_yellow"
+      },
+      {
+        "key": "ChangeHeader",
+        "value": "xisr_yellow"
       }
     ]
   }
