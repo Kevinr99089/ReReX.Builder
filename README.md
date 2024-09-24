@@ -13,7 +13,7 @@
 
 ## <p align="center"> Thanks to :
 >[!NOTE]
-> **I am NOT Anddea, this repository is [not hosted or supported by him](https://github.com/kevinr99089/Anddea.Builder/blob/main/history.md#-warning-), support his efforts.**
+> **I am NOT Anddea, this repository is [not hosted, approved or supported by him](https://github.com/kevinr99089/Anddea.Builder/blob/main/history.md#-warning-), support his efforts.**
 - **[j-hc](https://github.com/j-hc), Creator of this Module.**
 
 - **[anddea](https://github.com/Anddea), Potential successor to Extended, Creator of Mods for YT and Music.**
