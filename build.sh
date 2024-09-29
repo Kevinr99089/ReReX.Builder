@@ -26,7 +26,7 @@ DEF_CLI_VER=$(toml_get "$main_config_t" cli-version) || DEF_CLI_VER="latest"
 DEF_PATCHES_SRC=$(toml_get "$main_config_t" patches-source) || DEF_PATCHES_SRC="anddea/revanced-patches"
 DEF_INTEGRATIONS_SRC=$(toml_get "$main_config_t" integrations-source) || DEF_INTEGRATIONS_SRC="anddea/revanced-integrations"
 DEF_CLI_SRC=$(toml_get "$main_config_t" cli-source) || DEF_CLI_SRC="inotia00/revanced-cli"
-DEF_RV_BRAND=$(toml_get "$main_config_t" rv-brand) || DEF_RV_BRAND="ReReX"
+DEF_RV_BRAND=$(toml_get "$main_config_t" rv-brand) || DEF_RV_BRAND="ReVanced ReReX"
 mkdir -p $TEMP_DIR $BUILD_DIR
 
 if [ "${2-}" = "--config-update" ]; then
@@ -50,6 +50,8 @@ java --version >/dev/null || abort "\`openjdk 17\` is not installed. install it 
 zip --version >/dev/null || abort "\`zip\` is not installed. install it with 'apt install zip' or equivalent"
 # ----------------
 rm -rf revanced-magisk/bin/*/tmp.*
+: >"$TEMP_DIR"/*-rv/changelog.md || :
+
 get_prebuilts
 
 declare -A cliriplib
@@ -160,11 +162,11 @@ for table_name in $(toml_get_table_names); do
 done
 wait
 rm -rf temp/tmp.*
-if [ -z "$(ls -A1 ${BUILD_DIR})" ]; then abort "All builds failed."; fi
+if [ -z "$(ls -A1 "${BUILD_DIR}")" ]; then abort "All builds failed."; fi
 
-log "$(cat $TEMP_DIR/*-rv/changelog.md)"
+log "$(cat "$TEMP_DIR"/*-rv/changelog.md)"
 
-SKIPPED=$(cat $TEMP_DIR/skipped 2>/dev/null || :)
+SKIPPED=$(cat "$TEMP_DIR"/skipped 2>/dev/null || :)
 if [ -n "$SKIPPED" ]; then
 	log "\nSkipped:"
 	log "$SKIPPED"
