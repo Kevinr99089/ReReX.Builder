@@ -18,4 +18,6 @@
 
 - **[anddea](https://github.com/Anddea), Potential successor to Extended, Creator of Mods for YT and Music.**
 
+- **[peternmuller](https://github.com/peternmuller), Help and suggestions for this builder.**
+
 ##### <p align="right"> **ReReX is owned by Anddea, no rights reserved.**
