@@ -1,5 +1,10 @@
 # <p align="center"> Welcome to Anddea.Builder🛠️
 
+> [!warning]
+> Anddea.Builder will be archived on January 01, 2025.
+I'm having trouble managing 3 builders at the same time, plus I'm spending more time on ReVanced.Builder and Extended.Builder.
+However, I could reactivate it at any time to fix the problems and get it up and running again.
+
 ## <p align="center"> Available apps :
 - YT and YT Music (Arm64-v8a).
 > To use these applications, you need to install [MicroG-RE](https://github.com/WSTxda/MicroG-RE/releases/latest). View [applied patches](https://github.com/kevinr99089/Anddea.Builder/blob/main/config.toml).
