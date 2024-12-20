@@ -1,7 +1,7 @@
 # <p align="center"> Welcome to Anddea.Builder🛠️
 
 > [!warning]
-> As we are unable to resolve the problems with this builder, it will be replaced and releases moved to the new [Anddea.Builder](https://github.com/Kevinr99089).
+> As we are unable to resolve the problems with this builder, it will be replaced and releases moved to the new [Anddea.Builder](https://github.com/Kevinr99089/Anddea.Builder).
 It will be active when Anddea is upgraded to 5.0.0 and this builder will be removed shortly thereafter.
 
 ## <p align="center"> Available apps :
