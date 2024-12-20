@@ -1,9 +1,8 @@
 # <p align="center"> Welcome to Anddea.Builder🛠️
 
 > [!warning]
-> Anddea.Builder will be archived on January 01, 2025.
-I'm having trouble managing 3 builders at the same time, plus I'm spending more time on ReVanced.Builder and Extended.Builder.
-However, I could reactivate it at any time to fix the problems and get it up and running again.
+> As we are unable to resolve the problems with this builder, it will be replaced and releases moved to the new [Anddea.Builder](https://github.com/Kevinr99089).
+It will be active when Anddea is upgraded to 5.0.0 and this builder will be removed shortly thereafter.
 
 ## <p align="center"> Available apps :
 - YT and YT Music (Arm64-v8a).
